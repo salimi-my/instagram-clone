@@ -1,3 +1,57 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Grandista';
+  src: url('../public/Grandista.woff2') format('woff2'),
+    url('../public/Grandista.woff') format('woff'),
+    url('../public/Grandista.ttf') format('truetype');
+}
+
+:root {
+  --swiper-navigation-size: 12px !important;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-image: url('/icons.png');
+  border: none !important;
+  justify-self: center !important;
+  outline: none !important;
+  padding: 16px 8px !important;
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  margin: 0 !important;
+}
+
+.swiper-button-next {
+  background-repeat: no-repeat;
+  background-position: -294px -273px;
+  height: 45px !important;
+  width: 45px !important;
+}
+
+.swiper-button-prev {
+  background-repeat: no-repeat;
+  background-position: -294px -226px;
+  height: 45px !important;
+  width: 45px !important;
+}
+
+.swiper-button-next.swiper-button-disabled,
+.swiper-button-prev.swiper-button-disabled {
+  opacity: 0 !important;
+  cursor: auto;
+  pointer-events: none;
+}
+
+.swiper-slide {
+  width: 14.6% !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  display: none;
+}
