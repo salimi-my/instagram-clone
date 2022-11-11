@@ -12,12 +12,30 @@ const Home: NextPage = ({ ssrPosts }: any) => {
   return (
     <Fragment>
       <Head>
-        <title>Instakilo</title>
-        <meta name='title' content='Instakilo' />
+        <title>Instakilo | Login</title>
+        <meta name='title' content='Instakilo | Login<' />
         <meta
           name='description'
           content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
         />
+
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://instakilo.salimi.my/' />
+        <meta property='og:title' content='Instakilo | Login<' />
+        <meta
+          property='og:description'
+          content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
+        />
+        <meta property='og:image' content='/instakilo.jpg' />
+
+        <meta property='twitter:card' content='summary_large_image' />
+        <meta property='twitter:url' content='https://instakilo.salimi.my/' />
+        <meta property='twitter:title' content='Instakilo | Login<' />
+        <meta
+          property='twitter:description'
+          content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
+        />
+        <meta property='twitter:image' content='/instakilo.jpg' />
 
         <meta name='robots' content='noindex, nofollow' />
         <link

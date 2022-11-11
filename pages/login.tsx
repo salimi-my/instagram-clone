@@ -18,6 +18,24 @@ export default function login({ providers }: any) {
           content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
         />
 
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://instakilo.salimi.my/' />
+        <meta property='og:title' content='Instakilo' />
+        <meta
+          property='og:description'
+          content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
+        />
+        <meta property='og:image' content='/instakilo.jpg' />
+
+        <meta property='twitter:card' content='summary_large_image' />
+        <meta property='twitter:url' content='https://instakilo.salimi.my/' />
+        <meta property='twitter:title' content='Instakilo' />
+        <meta
+          property='twitter:description'
+          content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
+        />
+        <meta property='twitter:image' content='/instakilo.jpg' />
+
         <meta name='robots' content='noindex, nofollow' />
         <link
           rel='apple-touch-icon'
