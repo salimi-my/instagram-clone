@@ -1,27 +1,55 @@
-# Next.js + Tailwind CSS Example
+# [Instakilo](https://instakilo.salimi.my) &middot; [![Author Salimi](https://img.shields.io/badge/Author-Salimi-%3C%3E)](https://www.linkedin.com/in/mohamad-salimi/)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+This is Instagram clone created using Next.js for educational purposes. User can login using Google login API, make posts with images, like posts and comment on posts.
 
-## Deploy your own
+## Exact copy of Instagram UI
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+- This is a clone of Instagram app
+- Login using NextAuth.js through Google login API
+- Realtime database using Firebase
+- NextJS Server-side Rendering
+- Hosted in Vercel
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Tech/framework used
 
-## How to use
+- Next.js
+- NextAuth.js
+- Tailwind CSS
+- Tailwind UI
+- Firebase
+- Recoil
+- Vercel
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## Starting the project
+
+Open the [.env.local.example](/.env.local.example) and fill in your Firebase Configurations & NextAuth Configurations then save it as .env.local the run the following command:
 
 ```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+npm run dev
+# or
+yarn run dev
 ```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
+## Demo
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
+The app hosted on Vercel. [Click here](https://instakilo-salimi.my) to visit.
+<br>
+Direct link: `https://instakilo.salimi.my`
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## Screenshots
+
+#### Login
+
+![Login](/screenshots/screenshot-1.png)
+
+#### Feed
+
+![Feed](/screenshots/screenshot-2.png)
+
+#### Menu
+
+![Menu](/screenshots/screenshot-3.png)
+
+#### Create new post
+
+![Menu](/screenshots/screenshot-4.png)
