@@ -36,7 +36,6 @@ export default function login({ providers }: any) {
         />
         <meta property='twitter:image' content='/instakilo.jpg' />
 
-        <meta name='robots' content='noindex, nofollow' />
         <link
           rel='apple-touch-icon'
           sizes='180x180'
