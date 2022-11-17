@@ -12,7 +12,7 @@ export default function login({ providers }: any) {
     <>
       <Head>
         <title>Instakilo</title>
-        <meta name='title' content='Instakilo' />
+        <meta name='title' content='Instakilo | Login' />
         <meta
           name='description'
           content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
@@ -20,7 +20,7 @@ export default function login({ providers }: any) {
 
         <meta property='og:type' content='website' />
         <meta property='og:url' content='https://instakilo.salimi.my/' />
-        <meta property='og:title' content='Instakilo' />
+        <meta property='og:title' content='Instakilo | Login' />
         <meta
           property='og:description'
           content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
@@ -29,7 +29,7 @@ export default function login({ providers }: any) {
 
         <meta property='twitter:card' content='summary_large_image' />
         <meta property='twitter:url' content='https://instakilo.salimi.my/' />
-        <meta property='twitter:title' content='Instakilo' />
+        <meta property='twitter:title' content='Instakilo | Login' />
         <meta
           property='twitter:description'
           content='This is NOT REAL INSTAGRAM! This site created for educational purposes only.'
