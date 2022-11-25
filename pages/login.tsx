@@ -54,6 +54,7 @@ export default function login({ providers }: any) {
           href='/favicon-16x16.png'
         />
         <link rel='manifest' href='/site.webmanifest' />
+        <meta name='robots' content='index, follow' />
       </Head>
       <div className='bg-[#fafafa] h-screen'>
         <main className='flex flex-row items-center justify-center w-full flex-shrink-0 flex-grow pb-8 h-[90%]'>
